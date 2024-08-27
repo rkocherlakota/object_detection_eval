@@ -1,0 +1,15 @@
+# config.yaml
+input:
+  ground_truth_yolo_dir: "/Users/rkocherlakota/Downloads/autoevaluation_cv/pepsi_dataset/ground_truth/train/labels"
+  ground_truth_image_dir: "/Users/rkocherlakota/Downloads/autoevaluation_cv/pepsi_dataset/ground_truth/train/images"
+  ground_truth_json_dir: "/Users/rkocherlakota/Downloads/autoevaluation_cv/pepsi_dataset/ground_truth/train/images"
+  ground_truth_coco_output: "/Users/rkocherlakota/ObjectDetection Eval/ground_truth/ground_truth.json"
+
+  prediction_yolo_dir: "/Users/rkocherlakota/ObjectDetection Eval/test/train/labels"
+  prediction_image_dir: "/Users/rkocherlakota/ObjectDetection Eval/test/train/images"
+  prediction_json_dir: "/Users/rkocherlakota/ObjectDetection Eval/test/train/images"
+  prediction_coco_output: "/Users/rkocherlakota/ObjectDetection Eval/ground_truth/ground_truth.json"
+
+image:
+  height: 640  
+  width: 640
